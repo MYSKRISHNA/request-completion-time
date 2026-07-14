@@ -14,7 +14,7 @@ Horizontal scaling plays a critical role in maintaining responsiveness in modern
 
 **Core Technical Contributions**
 
-- ** Advanced Horizontal Scaling Architecture:** \
+- **Advanced Horizontal Scaling Architecture:** \
 Designed a decentralized scaling architecture that minimizes node integration delay, communication overhead, and coordination latency to improve request completion time in clustered computing environments.
 - **Optimized Task Scheduling and Resource Allocation:** \
 Developed a time-aware scheduling mechanism that distributes workloads efficiently across available nodes, enabling faster execution and improved horizontal scaling performance.
@@ -24,25 +24,6 @@ Implemented a Go-based parallel processing framework using Goroutines, channels,
 Introduced a service mesh architecture with decentralized control, sidecar proxies, intelligent traffic management, and observability to reduce communication overhead and improve scalability.
 - **Scalability Analysis Across Cluster Sizes:** \
 Evaluated request completion time across clusters containing 3, 5, 7, 9, and 11 nodes, demonstrating that the proposed architecture consistently achieves lower scaling latency and better scalability than conventional clustered architectures.
-
-
-
-
-
-
-
-
-
-- **Adaptive Replica Synchronization Framework:**
-Designed an adaptive synchronization framework that dynamically regulates replica update propagation based on runtime synchronization delay, workload distribution, communication activity, and node resource utilization, improving synchronization efficiency across distributed architectures.
-- **Runtime Synchronization Monitoring Mechanism:**
-Implemented continuous monitoring of synchronization delay, communication behavior, replica health, and resource utilization to detect synchronization bottlenecks and maintain balanced replica coordination during runtime.
-- **Adaptive Propagation Control Model:**
-Developed a dynamic propagation mechanism that prioritizes replicas experiencing higher synchronization backlog, reducing propagation delay, synchronization backlog accumulation, and inconsistent replica state visibility.
-- **Concurrent Multi-Replica Synchronization Simulator:**
-Implemented a Go-based concurrent synchronization model using Goroutines and WaitGroups to simulate parallel replica synchronization, adaptive decision making, and runtime monitoring across distributed nodes.
-- **Scalability Analysis Across Cluster Sizes:**
-Evaluated synchronization performance across clusters containing 3, 5, 7, 9, and 11 nodes, demonstrating that adaptive synchronization maintains lower synchronization delay and better scalability than conventional static synchronization approaches.
 
 ### Experimental Results (Summary)
 
