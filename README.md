@@ -26,13 +26,13 @@ Evaluated synchronization performance across clusters containing 3, 5, 7, 9, and
 
 ### Experimental Results (Summary)
 
-  | Nodes | Static Synchronization (ms) | Adaptive Synchronization (ms) | Improvement (%) |
-  |-------|-----------------------------| ------------------------------| ----------------|
-  | 3     |  420                        | 290                           | 30.95           |
-  | 5     |  560                        | 360                           | 35.71           |
-  | 7     |  710                        | 430                           | 39.44           |
-  | 9     |  860                        | 510                           | 40.70           |
-  | 11    |  1020                       | 590                           | 42.16           |
+  | Nodes | Conventional Archtecture (ms) | Advanced Architecture (ms) | Improvement (%) |
+  |-------|-------------------------------| ---------------------------| ----------------|
+  | 3     |  1200                         | 480                        | 60.00           |
+  | 5     |  1050                         | 390                        | 62.86           |
+  | 7     |  980                          | 340                        | 65.31           |
+  | 9     |  940                          | 310                        | 67.02           |
+  | 11    |  910                          | 280                        | 69.23           |
 
 ### Citation
 Efficient Horizontal Scaling Time in Clustered Computing Environments
