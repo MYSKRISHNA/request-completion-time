@@ -13,6 +13,26 @@
 Horizontal scaling plays a critical role in maintaining responsiveness in modern clustered computing environments under dynamic workloads. Existing scaling mechanisms experience delays caused by orchestration overhead, resource contention, communication costs, and ineffective scheduling, resulting in increased request completion time. The study analyzes scaling behavior across multiple node configurations to identify the factors contributing to scaling latency. It proposes an advanced architectural model that improves resource allocation, accelerates node integration, and optimizes synchronization during scaling operations. The findings demonstrate that reducing scaling time enhances system responsiveness, operational stability, and scalability while providing a time-centric framework for evaluating clustered computing performance.
 
 **Core Technical Contributions**
+
+- ** Advanced Horizontal Scaling Architecture:** \
+Designed a decentralized scaling architecture that minimizes node integration delay, communication overhead, and coordination latency to improve request completion time in clustered computing environments.
+- **Optimized Task Scheduling and Resource Allocation:** \
+Developed a time-aware scheduling mechanism that distributes workloads efficiently across available nodes, enabling faster execution and improved horizontal scaling performance.
+- **Concurrent Multi-Node Processing Model:** \
+Implemented a Go-based parallel processing framework using Goroutines, channels, and WaitGroups to simulate decentralized task execution and concurrent workload distribution across multiple nodes.
+- **Service Mesh-Based Communication Framework:** \
+Introduced a service mesh architecture with decentralized control, sidecar proxies, intelligent traffic management, and observability to reduce communication overhead and improve scalability.
+- **Scalability Analysis Across Cluster Sizes:** \
+Evaluated request completion time across clusters containing 3, 5, 7, 9, and 11 nodes, demonstrating that the proposed architecture consistently achieves lower scaling latency and better scalability than conventional clustered architectures.
+
+
+
+
+
+
+
+
+
 - **Adaptive Replica Synchronization Framework:**
 Designed an adaptive synchronization framework that dynamically regulates replica update propagation based on runtime synchronization delay, workload distribution, communication activity, and node resource utilization, improving synchronization efficiency across distributed architectures.
 - **Runtime Synchronization Monitoring Mechanism:**
